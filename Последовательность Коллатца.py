@@ -16,4 +16,4 @@ while intInput != 1:   # пока введенное число не будет 
     intInput = collatz(intInput)   # введенное число будет подставляться в функцию collatz вместо number
     print(intInput)   # выводит фунцию collatz() с уже введенным значением в самом начале ( intInput = int(input()) )
 
-trere
+
