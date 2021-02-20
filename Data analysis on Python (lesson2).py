@@ -90,5 +90,3 @@ for x in A:
 for line in combinations('ABCD', 2):
     print(*line)"""
 
-fg
-
