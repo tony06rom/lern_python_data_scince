@@ -47,7 +47,7 @@ print(*(x * x for x in A if x % 2 ==1))"""
 
 # ____________________________________________________________
 
-A = (1, 2, 3, 4, 5)
+"""A = (1, 2, 3, 4, 5)
 
 B = tuple(x * 10 for x in A)
 
@@ -63,5 +63,32 @@ enumerate("HELLO")
 for i, char in enumerate("HELLO"):
     print(i, char)
 
-print(*map(lambda a: a[0] * a[1], *enumerate("HELLO")))
+print(*map(lambda a: a[0] * a[1], *enumerate("HELLO")))"""
+
+
+"""def arithm_progression(start, stop, step):
+    x =start
+    while x < stop:
+        print(f"now working on x = {x}")
+        yield x
+        x += step
+
+type(arithm_progression)
+print(type(arithm_progression))
+
+arithm_progression(1, 10, 2)
+A = arithm_progression(1, 10, 2)
+type(A)
+print(type(A))
+
+for x in A:
+    print(x)"""
+
+
+
+"""from itertools import *
+for line in combinations('ABCD', 2):
+    print(*line)"""
+
+fg
 
