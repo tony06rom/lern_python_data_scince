@@ -1,4 +1,4 @@
-def collatz():
+def collatz(number):
     if number % 2 == 0:
         return number // 2
     elif number % 2 == 1:
@@ -7,8 +7,12 @@ def collatz():
 print('Введите целове число: ')
 
 try:
-    number = input()
+    intInput = int(input())
 except:
+    print('Введено не целове число, повторите ввод...')
 
+while intInput != 1:
+    intInput = collatz(intInput)
+    print(intInput)
 
 
