@@ -89,4 +89,3 @@ for x in A:
 """from itertools import *
 for line in combinations('ABCD', 2):
     print(*line)"""
-
