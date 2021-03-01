@@ -1,0 +1,10 @@
+spam = {'name': 'Zophie', 'age': 7}
+print('name' in spam.keys())
+print('_______________________________________________')
+print('Zophie' in spam.values())
+print('_______________________________________________')
+print('color' in spam.keys())
+print('_______________________________________________')
+print('color' not in spam.keys())
+print('_______________________________________________')
+print('colo' in spam)
